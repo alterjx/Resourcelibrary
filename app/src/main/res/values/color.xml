@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="gesture_background_color">#0000</color>
+    
+     <!-- new -->
+     <color name="orange">#FF8c31</color>
+     <color name="white">#ffffff</color>
+
+      <color name="gray">#cccccc</color>
+    <color name="color_gray_80p">#999999</color>
+    <color name="gray_2">#f0f0f0</color>
+    <color name="gray_3">#e5e5e5</color>
+    <color name="gray_4">#d8d8d8</color>
+    <color name="gray_6">#c6c6c6</color>
+    <color name="gray_12">#e8e8e8</color>
+    <color name="gray_17">#d4d4d4</color>
+    <color name="gray_ededed">#ededed</color>
+    <color name="gray_f5f5f5">#f5f5f5</color>
+    <color name="gray_ff8f8f8">#f8f8f8</color>
+    <color name="gray_c5c5c5">#c5c5c5</color>
+    <color name="gray_cdcdcd">#cdcdcd</color>
+    <color name="divider_dark_2">#dddddd</color>
+    <color name="dark_gray">#666666</color>
+    <color name="gray_7">#33616161</color>
+    <color name="gray_9">#44212121</color>
+      <color name="color_gray">#e3e3e3</color>
+    <color name="color_10p_white">#19ffffff</color>
+    <!-- 百分之10白色 -->
+    <color name="color_50p_white">#7fffffff</color>
+    <!-- 百分之10白色 -->
+
+    <color name="color_10p_black">#19000000</color>
+
+    <!-- 银黑色 -->
+    <color name="color_sliver_black"> #3B3A38</color>
+    <!-- 百分之10黑色 分割线 -->
+    <color name="color_15p_black">#26000000</color>
+    <!-- 百分之15黑色 -->
+    <color name="color_20p_black">#33000000</color>
+    <!-- 百分之20黑色 -->
+    <color name="color_30p_black">#4c000000</color>
+    <!-- 百分之30黑色 -->
+    <color name="color_50p_black">#7f000000</color>
+    <!-- 百分之30黑色 -->
+    <color name="color_70p_black">#b2000000</color>
+    <!-- 百分之70黑色 -->
+    <color name="color_80p_black">#3d3d3d</color>
+    <!-- 百分之80黑色 -->
+    <color name="color_100p_black">#ff000000</color>
+
+    <color name="color_2c2c2c_black">#2c2c2c</color>
+    <!-- 百分之100黑色 -->
+    <color name="read_background_paperYellow">#D4C5A3</color>
+
+    <color name="banner_bg">#ff010101</color>
+    <color name="image_loading_bg">#ff292929</color>
+
+    <!-- Theam -->
+    <color name="windowbg">#ff303030</color>
+    <!--红色-->
+    <color name="red_colorPrimaryDark">#ffb0120a</color>
+    <color name="red_colorPrimary">#ffe51c23</color>
+    <color name="red_windowBackground">#fff36c60</color>
+    <color name="red_navigationBarColor">#ffd01716</color>
+    <!--粉色-->
+    <color name="pink_colorPrimaryDark">#ff880e4f</color>
+    <color name="pink_colorPrimary">#ffe91e63</color>
+    <color name="pink_windowBackground">#fff06292</color>
+    <color name="pink_navigationBarColor">#ffc2185b</color>
+     <!--橘色-->
+    <color name="orange_colorPrimaryDark">#FF8c31</color>
+    <color name="orange_colorPrimary">#FF8c31</color>
+    <color name="orange_windowBackground">#FF8c31</color>
+    <color name="orange_navigationBarColor">#FF8c31</color>
+    
+    <color name="background_tab_pressed">#FF8c31</color>
+    <color name="transparent">@android:color/transparent</color>
+
+    <color name="google_blue">#4285F4</color>
+    <color name="google_red">#EA4335</color>
+    <color name="google_green">#34A853</color>
+    <color name="google_yellow">#FBBC05</color>
+
+    <color name="color_black_labe_image">#2A2A33</color>
+    <color name="color_gray_more_image">#9A9A9C</color>
+    <color name="color_blue_back_image">#02AAFF</color>
+    <color name="color_gray_try_image">#B3B3B3</color>
+    <color name="color_black_film_labe_image">#676767</color>
+    <color name="gray_a5a5a5">#a5a5a5</color>
+
+
+    <!--白天主题-->
+    <color name="day_backgroup_color">#FFFFFFFF</color>
+    <color name="day_one_text_color">#FF000000</color>
+    <color name="day_two_text_color">#c9000000</color>
+    <color name="day_three_text_color">#8A9599</color>
+    <!--夜间主题-->
+    <color name="night_backgroup_color">#3F3F3F</color>
+    <color name="night_one_text_color">#FFbbbbbb</color>
+    <color name="night_two_text_color">#8A9599</color>
+    <color name="night_there_text_color">#8A9599</color>
+    <color name="main_color">#FA7C20</color>
+    <color name="light_gray">#808080</color>
+
+    <color name="green_weixin">#00c801</color>
+    <color name="blue_ali">#1296db</color>
+
+</resources>

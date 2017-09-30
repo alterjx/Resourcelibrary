@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">闲猪手</string>
+    <string name="app_exit_tip">再按一次退出程序</string>
+    <string name="app_loading">加载中...</string>
+    <string name="app_pre_loading">数据预加载中...</string>
+    <string name="app_loading_empy"></string>
+    <string name="app_mine_title">我的</string>
+    <string name="app_data_empty">数据上线中，请耐心等候！</string>
+    <string name="app_pic_amount">(%sP)</string>
+    <string name="app_one_space">&#160;</string>
+    <string name="app_two_space">&#160;&#160;</string>
+    <string name="number_part">%1$d/%2$d</string>
+    <string name="app_loading_complete">我们是有底线的</string>
+    <string name="app_cancle">取消</string>
+    <string name="app_delete">删除中...</string>
+    <string name="try_again">点我试试</string>
+    <string name="app_upgrade_title">新版本更新</string>
+    <string name="app_upgrade_update">现在更新</string>
+    <string name="app_upgrade_update_cancle">再等等</string>
+    <string name="app_no_more_space">手机存储空间不足！</string>
+    <string name="app_downloading">下载中...</string>
+    <string name="app_download_fail">更新失败，请稍后再试！</string>
+    <string name="app_url">官网</string>
+    <string name="app_contact">联系客服</string>
+    <string name="app_contact_service_weixin">todopapapa</string>
+    <string name="app_contact_tip">已成功复制客服微信号，赶紧联系我们吧！</string>
+    <string name="app_get_info_tip">已成功复制您的ID信息！</string>
+    <string name="app_get_code_tip">已成功复制源码地址！</string>
+    <string name="app_get_info_instroution">用于向客服反馈问题时，需要您提供ID信息!例如，当您遇到升级VIP不成功时，可以点击"获取个人ID"后，将ID信息粘贴发送给客服微信号。</string>
+    <string name="app_version">V&#160;%s</string>
+    <string name="app_data_is_empty">数据上线中，请耐心等候</string>
+    <string name="app_adult_appliaciotn">成人APP</string>
+    <string name="app_adult_appliaciotn_error">应用加载失败，请稍后再试</string>
+    <string name="app_developing">敬请期待</string>
+
+    <string name="app_bracket">(%s)</string>
+
+    <string name="login_exit_tip">您确定要退出账号？</string>
+    <string name="login_exit_button_tip">退出账号</string>
+    <string name="login_title">登录</string>
+    <string name="login_number">账号</string>
+    <string name="login_pwd">密码</string>
+    <string name="login_login">登录</string>
+    <string name="login_exit">安全退出</string>
+    <string name="login_take_money">升级VIP</string>
+    <string name="login_cancle">取消登录</string>
+    <string name="login_fail">登录失败，请稍后再试！</string>
+    <string name="login_fail_unknow">您当前的网络环境暂不支持%s！</string>
+    <string name="login_other_platform">第三方平台</string>
+    <string name="login_other_platform_weixin">微信登录</string>
+    <string name="login_other_platform_qq">QQ登录</string>
+    <string name="login_other_platform_sina">微博登录</string>
+    <string name="app_i_know">我知道了</string>
+    <string name="app_get_data_error">网络异常，请稍后再试！</string>
+
+
+    <string name="detail_dialog_vip_tip_title">权限提示</string>
+
+    <string name="detail_dialog_vip_tip_first">再看看</string>
+    <string name="detail_dialog_vip_tip_second">立刻升级</string>
+    <string name="detail_dialog_not_vip_tip_content">对不起，您目前是普通用户，当前内容仅供VIP会员浏览！</string>
+    <string name="detail_dialog_time_out_vip_tip_content">对不起，您的VIP已过期，当前内容仅供VIP会员浏览！</string>
+    <string name="detail_dialog_login_exception_tip_content">对不起，检测到您的登录信息异常，请重新登录！</string>
+    <string name="detail_dialog_login_exception_no_user">对不起，您的登录信息已失效，请重新登录！</string>
+    <string name="detail_dialog_login">现在登录</string>
+
+
+    <string name="mine_user_name">用户名</string>
+    <string name="mine_login">登&#160;录</string>
+    <string name="mine_vip">升级VIP</string>
+    <string name="mine_user_common">普通用户</string>
+    <string name="mine_user_time_vip">银牌会员</string>
+    <string name="mine_user_vip">终身VIP</string>
+    <string name="app_pic_time_vip_day">剩余%s天</string>
+    <string name="app_pic_time_out_day">会员已过期</string>
+    <string name="mine_app_update">检查更新</string>
+    <string name="mine_app_declare">免责声明</string>
+    <string name="mine_app_url_empty_tip">上线中...</string>
+    <string name="mine_app_declare_content">1、本项目所有资源均采集自互联网,不做任何资源的复制及存储，只是静态展示，仅供观摩交流之用，将不对任何资源负法律责任，如有侵权请及时联系原作者。\n\n
+        2、本项目不做任何商业用途，所有功能仅作为线上学习和测试，由项目本作者长期稳定维护，任何支付行为只是用户对本项目作者的无偿捐赠或功能测试，不涉及任何商业交易。\n\n
+    3、如不同意以上本项目原则声明的任何一条，请自觉离开，谢谢合作。</string>
+    <string name="mine_about_us">关于我们</string>
+    <string name="mine_service">问题反馈</string>
+    <string name="mine_current_version">(当前版本%s)</string>
+    <string name="mine_current_new_version">发现新版本</string>
+    <string name="mine_current_version_is_new">已是最新版本</string>
+    <string name="mine_copyright">Copyright © 老北京咸猪手有限公司\nAll Right Reserved</string>
+    <string name="mine_get_info">获取个人ID</string>
+    <string name="mine_get_code">获取源码</string>
+    <string name="mine_notice_title">活动说明</string>
+    <string name="mine_not_vip_tip_content">对不起，当前内容仅供VIP会员浏览，请先升级VIP！</string>
+
+
+    <string name="search_search_title_hint">搜&#160;&#160;索</string>
+    <string name="search_history_title">搜索记录</string>
+    <string name="search_no_history">暂无搜索记录</string>
+    <string name="search_clear_history">清除搜索记录</string>
+    <string name="search_empty">竟然沒找到这货！！！</string>
+    <string name="search_content_empty_tip">请输入搜索内容</string>
+    <string name="search_history_head_title">推荐标签</string>
+
+
+    <string name="pay_head_title">升级VIP</string>
+    <string name="pay_select_title">正在购买：%s</string>
+    <string name="pay_select_amount">支付金额：%s￥</string>
+    <string name="pay_select_weixin">微信支付</string>
+    <string name="pay_select_ali">支付宝</string>
+    <string name="pay_pay">升级</string>
+    <string name="pay_product_origin_price">原价%s￥</string>
+    <string name="pay_product_price">%s￥</string>
+    <string name="pay_get_order_info">订单获取中...</string>
+    <string name="pay_user_upgrade">支付成功，账号升级中...</string>
+    <string name="pay_declare">升级协议</string>
+    <string name="pay_bottmom_declare_left">点击“升级”代表您已阅读并同意</string>
+    <string name="pay_question">会员权限说明</string>
+    <string name="pay_fail">支付失败</string>
+    <string name="pay_cancle">您已取消支付</string>
+    <string name="pay_user_upgrade_success">恭喜您，升级成功！</string>
+    <string name="pay_user_upgrade_error_title">升级失败</string>
+    <string name="pay_user_upgrade_error">不过，别担心，可以试试强制刷新，大不了联系美女客服！</string>
+    <string name="pay_error">支付系统繁忙，请稍后再试！</string>
+    <string name="pay_error2">支付系统繁忙，请稍后再试(%s)！</string>
+    <string name="pay_no_ali_app">对不起，请先安装支付宝客户端！</string>
+    <string name="pay_contact_service">联系客服</string>
+    <string name="pay_contact_update">强制刷新</string>
+
+    <string name="video_time">(%smin)</string>
+    <string name="video_index">第%s集</string>
+    <string name="film_detail_title">图片预览</string>
+    <string name="film_all_number">全部</string>
+    <string name="film_select_number">选集</string>
+    <string name="film_detail_show_time">上映</string>
+    <string name="film_detail_film_country">国家</string>
+    <string name="film_detail_film_time">片长</string>
+    <string name="film_detail_film_type">类型</string>
+    <string name="film_detail_film_language">语言</string>
+    <string name="film_detail_film_directors">导演</string>
+    <string name="film_detail_film_casts">主演</string>
+    <string name="film_detail_film_rating">评分</string>
+    <string name="film_declare">版权免责声明</string>
+    <string name="film_detail_resource_title">资源列表</string>
+    <string name="film_detail_resource_recomend_title">推荐线路：</string>
+    <string name="film_detail_resource_backup_title">备份线路：</string>
+    <string name="film_detail_resource_seat_title">BT种子：</string>
+    <string name="film_detail_download_title">点此下载&#160;&#160;密码：%s</string>
+    <string name="film_seat_download_title">一键复制</string>
+    <string name="film_detail_resource_tip">ps:如若以上链接均失效则代表本资源已被损害无法观看\n敬请谅解！</string>
+
+
+    <string name="film_detail_video_screen_ver">竖屏</string>
+    <string name="film_detail_video_screen_hor">横屏</string>
+    <string name="film_video_loading">视频解析中...</string>
+
+    <string name="scale_down_show_behavior">com.resource.app.customview.behavior.ScaleDownShowBehavior</string>
+    <string name="scale_up_show_behavior">com.resource.app.customview.behavior.ScaleUpShowBehavior</string>
+    <string name="menu_scale_up_show_behavior">com.resource.app.customview.behavior.ScrollAwareFABBehavior</string>
+</resources>

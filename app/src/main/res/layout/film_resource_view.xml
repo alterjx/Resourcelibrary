@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent">
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="@string/film_detail_resource_title"
+            android:textColor="@color/color_80p_black"
+            android:textStyle="bold"
+            android:textSize="@dimen/ts_big"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/divider_dark_2"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_recommend"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <TextView
+                android:id="@+id/tv_recomend_title"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:gravity="center"
+
+                android:text="@string/film_detail_resource_recomend_title"
+                android:textColor="@color/google_red"
+                android:textSize="@dimen/ts_big"/>
+
+            <TextView
+                android:id="@+id/tv_recomend_content"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/tv_recomend_title"
+                android:gravity="center"
+                android:drawableLeft="@mipmap/icon_one_key_download"
+                android:text="@string/film_detail_download_title"
+                android:textColor="@color/color_2c2c2c_black"
+                android:textSize="@dimen/ts_normal"/>
+
+            <ImageView
+                android:id="@+id/iv_recomend_copy"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/icon_copy"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/divider_dark_2"/>
+        <RelativeLayout
+            android:id="@+id/rl_backup"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <TextView
+                android:id="@+id/tv_backup_title"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="@string/film_detail_resource_backup_title"
+                android:textColor="@color/blue_ali"
+                android:textSize="@dimen/ts_big"/>
+
+            <TextView
+                android:id="@+id/tv_backup_content"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/tv_backup_title"
+                android:gravity="center"
+                android:drawableLeft="@mipmap/icon_one_key_download"
+                android:text="@string/film_detail_download_title"
+                android:textColor="@color/color_2c2c2c_black"
+                android:textSize="@dimen/ts_normal"/>
+
+            <ImageView
+                android:id="@+id/iv_backup_copy"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/icon_copy"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/divider_dark_2"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_bt_download"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <TextView
+                android:id="@+id/tv_seat_title"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="@string/film_detail_resource_seat_title"
+                android:textColor="@color/color_2c2c2c_black"
+                android:textSize="@dimen/ts_big"/>
+
+            <TextView
+                android:id="@+id/tv_seat_content"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/tv_seat_title"
+                android:gravity="center"
+                android:drawableLeft="@mipmap/icon_bt_seat"
+                android:text="@string/film_seat_download_title"
+                android:textColor="@color/color_2c2c2c_black"
+                android:textSize="@dimen/ts_normal"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/divider_dark_2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="@string/film_detail_resource_tip"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/ts_normal_1"/>
+
+        <LinearLayout
+            android:id="@+id/ll_banner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"
+            android:orientation="horizontal"/>
+    </LinearLayout>
+</RelativeLayout>

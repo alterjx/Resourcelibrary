@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pic_default_menus">
+        <item>免费体验</item>
+        <item>街拍图片</item>
+        <item>丝袜生活</item>
+        <item>紧身诱惑</item>
+    </string-array>
+
+    <string-array name="main_default_menus">
+        <item>美女</item>
+        <item>视频</item>
+        <item>搜索</item>
+        <item>我的</item>
+    </string-array>
+
+    <string-array name="film_default_menus">
+        <item>视频</item>
+    </string-array>
+</resources>

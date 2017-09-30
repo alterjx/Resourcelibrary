@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="12dp"
+              android:gravity="center"
+              android:background="@color/white"
+              android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/icon_clear_history"/>
+
+    <TextView
+        android:id="@+id/tv_flight_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/color_gray_80p"
+        android:text="@string/search_clear_history"
+        android:textSize="@dimen/ts_normal_1"/>
+
+</LinearLayout>

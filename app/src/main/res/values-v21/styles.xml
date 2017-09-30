@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="AppTheme_Default" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--<item name="colorPrimary">@color/color_100p_black</item>
+        <item name="colorPrimaryDark">@color/color_100p_black</item>
+        <item name="colorAccent">@color/main_color</item>
+        <item name="colorControlHighlight">@color/main_color</item>-->
+    </style>
+
+    <!-- 如果activity继承的AppCompatActivity，添加以下属性实现activity透明 -->
+    <style name="AppTheme_Default_Translucen" parent="AppTheme_Default">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+</resources>

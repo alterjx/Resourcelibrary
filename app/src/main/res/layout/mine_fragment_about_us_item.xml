@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:foreground="?attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:minWidth="320dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_gray_corner_4dp_white_frame"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/mine_about_us"
+            android:textColor="@color/color_80p_black"
+            android:textSize="@dimen/ts_large"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/gray_c5c5c5" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/iv_pic"
+            android:layout_width="144dp"
+            android:layout_height="144dp"
+            fresco:roundAsCircle="true"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            android:textColor="@color/color_80p_black"
+            android:textSize="@dimen/ts_bigger" />
+
+        <TextView
+            android:id="@+id/tv_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="@string/mine_about_us"
+            android:textSize="@dimen/ts_normal_1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_app_url"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stateListAnimator="@drawable/state_list_animator_z"
+                android:text="@string/app_url"
+                android:textColor="@color/main_color"
+                android:textSize="@dimen/ts_bigger" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="13dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/main_color" />
+
+         <!--   <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="@string/app_contact"
+                android:textColor="@color/main_color"
+                android:textSize="@dimen/ts_bigger" />-->
+
+            <TextView
+                android:id="@+id/tv_declare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stateListAnimator="@drawable/state_list_animator_z"
+                android:text="@string/mine_app_declare"
+                android:textColor="@color/main_color"
+                android:textSize="@dimen/ts_bigger"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/mine_copyright"
+            android:textSize="@dimen/ts_small" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/bg_white"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <TextView
+            android:id="@+id/tv_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/pay_select_title"
+            android:layout_alignBaseline="@+id/tv_product_price"
+            android:textColor="@color/color_80p_black"
+            android:textSize="@dimen/ts_big"/>
+
+        <TextView
+            android:id="@+id/tv_product_price"
+            android:layout_toRightOf="@+id/tv_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:text="@string/pay_product_origin_price"
+            android:textColor="@color/main_color"
+            android:textStyle="bold"
+            android:textSize="@dimen/ts_huge"/>
+
+        <TextView
+            android:id="@+id/tv_product_origin_price"
+            android:layout_toRightOf="@+id/tv_product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_product_price"
+            android:layout_marginLeft="5dp"
+            android:text="@string/pay_product_origin_price"
+            android:textColor="@color/gray_6"
+            android:textSize="@dimen/ts_small"/>
+
+        <TextView
+            android:id="@+id/tv_pay_click"
+            android:layout_alignParentRight="true"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:text="@string/pay_pay"
+            android:background="@drawable/bt_shape_main_color"
+            android:stateListAnimator="@drawable/state_list_animator_z"
+            android:textColor="@color/main_color"
+            android:textSize="@dimen/ts_big"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/divider_dark_2" />
+
+</LinearLayout>

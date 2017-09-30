@@ -1,0 +1,44 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="ts_smallest">8sp</dimen>
+    <dimen name="ts_smaller">10sp</dimen>
+    <dimen name="ts_small_11">11sp</dimen>
+    <dimen name="ts_small">12sp</dimen>
+    <dimen name="ts_normal">14sp</dimen>
+    <dimen name="ts_normal_1">13sp</dimen>
+    <dimen name="ts_big">15sp</dimen>
+    <dimen name="ts_bigger">16sp</dimen>
+    <dimen name="ts_large">17sp</dimen>
+    <dimen name="ts_larger">18sp</dimen>
+    <dimen name="ts_huge">20sp</dimen>
+    <dimen name="ts_huger">24sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app_toolbar_height">45dp</dimen>
+    <dimen name="app_bottombar_height">55dp</dimen>
+
+
+    <dimen name="film_show_now_list_item_hight">210dp</dimen>
+    <dimen name="film_show_now_list_item_iamge_hight">225dp</dimen>
+    <dimen name="load_more_footer_height_google">72dp</dimen>
+    <dimen name="load_more_trigger_offset_google">88dp</dimen>
+    <dimen name="load_more_final_offset_google">120dp</dimen>
+    <dimen name="load_more_drawable_size_google">36dp</dimen>
+    <dimen name="refresh_header_height_google">100dp</dimen>
+    <dimen name="refresh_trigger_offset_google">100dp</dimen>
+    <dimen name="refresh_final_offset_google">150dp</dimen>
+    <dimen name="refresh_drawable_size_google">40dp</dimen>
+    <dimen name="film_lable_height">64dp</dimen>
+    <dimen name="film_main_head_viewpager_height">210dp</dimen>
+    <dimen name="film_main_item_height">400dp</dimen>
+    <dimen name="viewpager_height">240dp</dimen>
+    <dimen name="indicator_size">6dp</dimen>
+    <dimen name="indicator_margin">6dp</dimen>
+
+
+    <dimen name="app_card_margin">0dp</dimen>
+    <dimen name="search_card_margin">0dp</dimen>
+    <dimen name="mine_head_card_margin">0dp</dimen>
+
+
+</resources>

@@ -1,0 +1,11 @@
+<com.resource.app.customview.frescozoomable.ZoomableDraweeView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/zdv_pic"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    fresco:actualImageScaleType="fitXY"
+    fresco:progressBarAutoRotateInterval="2000"
+    fresco:progressBarImage="@mipmap/pic_loading_progress"
+    fresco:viewAspectRatio="0.67"/>

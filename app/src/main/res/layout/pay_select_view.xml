@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent">
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_pay_select_title"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="@string/pay_select_title"
+            android:textColor="@color/color_80p_black"
+            android:textSize="@dimen/ts_big"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/divider_dark_2"/>
+
+        <TextView
+            android:id="@+id/tv_pay_select_amount"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="@string/pay_select_amount"
+            android:textColor="@color/main_color"
+            android:textSize="@dimen/ts_big"/>
+
+        <TextView
+            android:id="@+id/tv_pay_weixin"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="@string/pay_select_weixin"
+            android:textColor="@drawable/pay_weixin_font_selector"
+            android:background="@drawable/bg_pay_weixin_selector"
+            android:textSize="@dimen/ts_big"/>
+
+        <TextView
+            android:id="@+id/tv_pay_ali"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="@string/pay_select_ali"
+            android:textColor="@drawable/pay_ali_font_selector"
+            android:background="@drawable/bg_pay_ali_selector"
+            android:layout_marginBottom="20dp"
+            android:textSize="@dimen/ts_big"/>
+
+        <LinearLayout
+            android:id="@+id/ll_banner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"
+            android:orientation="horizontal"/>
+    </LinearLayout>
+</RelativeLayout>

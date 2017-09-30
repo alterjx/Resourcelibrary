@@ -1,0 +1,94 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'auto-patch-plugin'
+apply plugin: 'robust'
+
+android {
+    signingConfigs {
+        release {
+            keyAlias 'resource'
+            keyPassword '123456'
+            storeFile file('key/resource.jks')
+            storePassword '123456'
+        }
+    }
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+    defaultConfig {
+        multiDexEnabled true
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 2
+        versionName "1.1"
+        ndk {
+            //设置支持的SO库架构
+            abiFilters 'armeabi', 'armeabi-v7a', 'x86'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles  '../mark_net/proguard-rules.pro', 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                //这里修改apk文件名
+                def fileName = outputFile.name.replace("app", "pighand${defaultConfig.versionName}")
+                output.outputFile = new File(outputFile.parent, fileName)
+            }
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+dependencies {
+    testCompile 'junit:junit:4.12'
+    compile fileTree(dir: 'libs', include: '*.jar')
+    compile project(':mark_net')
+    compile project(':OneKeyShare')
+    compile "com.android.support:support-v4:${rootProject.ext.supportLibVersion}"
+    compile "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
+    compile "com.android.support:cardview-v7:${rootProject.ext.supportLibVersion}"
+    compile "com.android.support:recyclerview-v7:${rootProject.ext.supportLibVersion}"
+    compile "com.android.support:design:${rootProject.ext.supportLibVersion}"
+    compile 'com.android.support:support-annotations:24.+'
+    compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    compile 'com.mxn.soul:flowingdrawer-core:1.2.5'
+    compile 'jp.wasabeef:recyclerview-animators:2.2.3'
+    compile 'com.lsjwzh:materialloadingprogressbar:0.5.8-RELEASE'
+    compile 'com.github.Aspsine:SwipeToLoadLayout:1.0.3'
+    compile 'com.yqritc:recyclerview-flexibledivider:1.4.0'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:v1.9.7'
+    compile 'com.flyco.tablayout:FlycoTabLayout_Lib:2.0.8@aar'//菜单栏
+    compile 'com.jakewharton:butterknife:7.0.1'//view注解
+    compile 'com.github.clans:fab:1.6.4'//悬浮动画菜单
+    compile 'com.github.ybq:Android-SpinKit:1.1.0'
+    compile 'cn.lankton:flowlayout:3.1.0'
+    compile 'cn.carbs.android:AutoZoomInImageView:1.0.1'
+    //compile 'com.github.mcxtzhang:ZLayoutManager:V1.1.0'
+    compile 'com.meituan.robust:robust:0.4.5'
+    compile 'com.facebook.fresco:fresco:1.3.0'
+    compile 'com.github.hss01248:DialogUtil:1.1.6'
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    compile 'com.youth.banner:banner:1.4.9'  //最新版本
+    compile 'com.shuyu:gsyVideoPlayer-java:2.0.6'
+    dependencies {compile 'com.android.support:multidex:1.0.1'}
+}
+

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/abl_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_color">
+        <LinearLayout
+            android:id="@+id/ll_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <include layout="@layout/app_toolbar"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="5dp"
+                android:background="@drawable/ed_shape_gray">
+                <com.resource.app.customview.LastInputEditText
+                    android:id="@+id/et_search_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="@string/search_search_title_hint"
+                    android:textColorHint="@color/gray_c5c5c5"
+                    android:textCursorDrawable="@drawable/editor_cursor_shape"
+                    android:textColor="@color/light_gray"
+                    android:maxLines="1"
+                    android:inputType="text"
+                    android:textSize="@dimen/ts_big"
+                    android:singleLine="true"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:drawableLeft="@mipmap/icon_search_green"
+                    android:drawablePadding="9dp"
+                    android:background="@null"/>
+
+                <ImageView
+                    android:id="@+id/iv_search_clear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:visibility="gone"
+                    android:padding="5dp"
+                    android:src="@mipmap/search_clear_pressed"/>
+
+                <View
+                    android:id="@+id/view_stop"
+                    android:layout_width="match_parent"
+                    android:background="@color/transparent"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:layout_height="40dp"/>
+            </RelativeLayout>
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                app:tabBackground="@color/main_color"
+                android:textSize="@dimen/ts_normal"
+                app:tabIndicatorColor="@color/white"
+                app:tabPaddingBottom="11dp"
+                app:tabPaddingTop="11dp"
+                app:tabTextColor="@color/color_50p_white"
+                app:tabSelectedTextColor="@color/white"
+                android:layout_weight="1">
+            </android.support.design.widget.TabLayout>
+            <View
+                android:id="@+id/view_sapce"
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:background="@color/main_color"/>
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    </android.support.v4.view.ViewPager>
+
+    <FrameLayout
+        android:id="@+id/fl_history"
+        android:layout_width="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_height="match_parent"/>
+
+    <com.resource.app.customview.MSGView
+        android:id="@+id/msg_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:background="@color/white" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        app:backgroundTint="@color/main_color"
+        android:src="@mipmap/ic_arrow_upward"
+        app:layout_behavior="@string/menu_scale_up_show_behavior"/>
+</android.support.design.widget.CoordinatorLayout>

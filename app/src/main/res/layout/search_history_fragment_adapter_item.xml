@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="48dp"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_history_content"
+        android:layout_height="47.5dp"
+        android:layout_width="match_parent"
+        android:layout_marginRight="15dp"
+        android:stateListAnimator="@drawable/state_list_animator_z"
+        android:layout_marginLeft="15dp">
+
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/icon_history_delete"/>
+
+        <TextView
+            android:id="@+id/tv_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:textSize="@dimen/ts_big"
+            android:textColor="@color/light_gray"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/iv_search_clear"
+            android:text="@string/search_history_title"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="@color/divider_dark_2"
+        android:layout_height="0.5dp"/>
+</LinearLayout>

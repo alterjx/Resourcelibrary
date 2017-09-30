@@ -1,0 +1,8 @@
+参考博客：http://blog.csdn.net/qq_14859923/article/details/66527931?ref=myrecommend
+1、打正式包（此时注释掉打补丁的文件），并生成mapping.txt（build/outputs/mapping/release/mapping）文件和methodsMap.robust(build/outputs/robust/)文件
+并将文件copy到robust文件下
+2、修改build.gradle apply plugin: 'auto-patch-plugin'
+3、打开自动补丁插件，并sync now!
+4、并将方法getStr()和onCreate()方法都加上@Modify注解，这里注意，两个方法都要加注解
+5、gradlew clean  assembleRelease
+6、outputs/robust/文件夹下会看到两个文件，patch.dex和patch.jar。

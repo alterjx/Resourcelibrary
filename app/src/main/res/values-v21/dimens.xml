@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="app_card_margin">3dp</dimen>
+    <dimen name="search_card_margin">1dp</dimen>
+    <dimen name="mine_head_card_margin">0dp</dimen>
+</resources>

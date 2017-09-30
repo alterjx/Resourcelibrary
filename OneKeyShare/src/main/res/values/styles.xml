@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- 如果activity继承的AppCompatActivity，添加以下属性实现activity透明 -->
+    <style name="Default_Theme" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+
+    <style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenExitAnimation">
+            @anim/slide_out_to_bottom
+        </item>
+    </style>
+
+</resources>
