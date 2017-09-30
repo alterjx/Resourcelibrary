@@ -39,6 +39,7 @@ public class GlobalConstant {
         public static final String VIDEO_SEARCH_RESULT = "video_search_result";
         public static final String VIDEO_SEARCH_C0NTENT = "video_search_content";
         public static final String FILM_TYPE = "film_type";
+        public static final String VIDEO_DETAIL_INFO = "VIDEO_DETAIL_INFO";
     }
 
     public interface IntentPreference {

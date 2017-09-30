@@ -81,8 +81,8 @@ public class SearchVideoFragment extends BaseFragment implements OnRefreshListen
             @Override
             public void onItemClickListener(int position, VideoInfoModel info, View view) {
                 Bundle bundle = new Bundle();
-                bundle.putInt(GlobalConstant.IntentConstant.DETAIL_TYPE, GlobalConstant.DeatilType.PIC);
-                bundle.putSerializable(GlobalConstant.IntentConstant.PIC_DETAIL_INFO, info);
+                bundle.putInt(GlobalConstant.IntentConstant.DETAIL_TYPE, GlobalConstant.DeatilType.FILM);
+                bundle.putSerializable(GlobalConstant.IntentConstant.VIDEO_DETAIL_INFO, info);
                 if (AppConfig.isLogin()) {
                     goDetaiActivity(bundle);
                 } else {

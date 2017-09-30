@@ -182,7 +182,7 @@ public class VideoDetaiActivity extends BaseActivity {
             exit();
             return;
         }
-        mFilmInfo = (VideoInfoModel)bundle.getSerializable(GlobalConstant.IntentConstant.PIC_DETAIL_INFO);
+        mFilmInfo = (VideoInfoModel)bundle.getSerializable(GlobalConstant.IntentConstant.VIDEO_DETAIL_INFO);
         if (mFilmInfo == null) {
             exit();
             return;

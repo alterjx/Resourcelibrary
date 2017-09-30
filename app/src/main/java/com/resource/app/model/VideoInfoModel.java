@@ -12,7 +12,7 @@ public class VideoInfoModel implements Serializable{
     public String videoId; //视频编号
     public String f_id; //分类
     public String name;
-    public Integer type;
+    public int type;
     public String firstUrl; //
     public String picUrls;//app处理时应注意，如果链接中包含了http就不用拼接
     public String videoUrls; //app处理时应注意，如果链接中包含了http就不用拼接
@@ -20,13 +20,13 @@ public class VideoInfoModel implements Serializable{
     public String baiduUrl;
     public String pwd;
     public String videoTime; //视频时长
-    public Integer likeAmount;//赞
-    public Integer commentAmout;
-    public Integer videoAmout;
+    public int likeAmount;//赞
+    public int commentAmout;
+    public int videoAmout;
     public String video_domain_type;
     public String pic_domain_type;
-    public Integer isFree; //0免费 1付费
+    public int isFree; //0免费 1付费
     public String keyValue;
-    public Integer count_id;
-    public Integer isDownLoad;
+    public int count_id;
+    public int isDownLoad;
 }
